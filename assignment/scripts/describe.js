@@ -138,10 +138,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is not supposed to be 'red'. instructions say it instead should be 'blue'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX -  instructions say we need to assign colorTwo to 'purple'. colorTwo wasnt assigned anything.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -155,6 +157,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - instructions mention that if both the temp variable and the time variable are true,
+// then we print the line to the console. however in the code it is setup as either the temp variable or the
+// time variable are true then it prints the string to the console.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -168,9 +173,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - meant to be (minAge >= age) not how its currently setup. it should also be changed to "console.log('enter');"
 if(minAge <= age) {
   console.log('no entry');
-} else {
+}
+// FIX - lines below here can be omitted accroding to the instructions
+else {
   console.log('enter');
 }
 */
